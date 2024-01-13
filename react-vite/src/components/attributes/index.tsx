@@ -16,9 +16,9 @@ const Attributes = () =>{
     return (
         <div className="attrs_container">
             <span className="attrs_lable">Màu sắc</span>
-            <span className="attrs_item attrs_item_actived">Đen</span>
-            <span className="attrs_item">Hồng</span>
-            <span className="attrs_item">Xanh</span>
+            <AttItem isActive={true} label="Đen"/>
+            <AttItem label="Hồng"/>
+            <AttItem  label="Xanh"/>
         </div>
     );
 }
